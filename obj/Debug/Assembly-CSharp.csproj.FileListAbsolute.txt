@@ -1,0 +1,2 @@
+C:\Users\renat\Documents\Sci- Fi demo\MainGame\Disciples Of Sun\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\renat\Documents\Sci- Fi demo\MainGame\Disciples Of Sun\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
