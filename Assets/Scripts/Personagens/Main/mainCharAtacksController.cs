@@ -56,7 +56,7 @@ public class mainCharAtacksController : MonoBehaviour
             return true;
             
         } else{
-           
+           Debug.Log("A");
             return false;
         }
         
