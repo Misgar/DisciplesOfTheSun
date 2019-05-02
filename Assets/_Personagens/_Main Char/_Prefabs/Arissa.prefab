@@ -1042,7 +1042,7 @@ Animator:
   m_GameObject: {fileID: 2212261110116841904}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 3f8b2d4743868a14cb06685d5b5fab47, type: 3}
-  m_Controller: {fileID: 9100000, guid: 0882e1966b9a1dc49984acdac432e6d3, type: 2}
+  m_Controller: {fileID: 9100000, guid: ed16a3efd518ec549b4709a2c58b0ef4, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1064,6 +1064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rotacionar: 100
+  _andar: 0
 --- !u!114 &2212261110116841911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1089,6 +1090,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b9f326fd661345a2c1c38fdee69e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
+  attack: 0
 --- !u!65 &2212261110116841910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1116,7 +1119,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!1 &2212261110146006432
 GameObject:

@@ -17,7 +17,7 @@ public class Destruction : MonoBehaviour {
 			foreach (Rigidbody chunk in chunks){
 				chunk.useGravity = enabled;
 				chunk.isKinematic = false;
-				dustFX.SetActive(true);
+				//dustFX.SetActive(true);
 				GetComponent<AudioSource>().PlayOneShot(audioClip);
 			}
 		} 
