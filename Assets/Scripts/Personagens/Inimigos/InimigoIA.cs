@@ -12,7 +12,8 @@ public class InimigoIA : MonoBehaviour
 
 {
     // O OBJETIVO DO SCRIPT SERA, INICIALMENTE, PARA QUE RECEBA O OBJETO DE VISAO PELA TAG
-    private GameObject player;  // VARIAVEL QUE RECEBERA O OBJETO PLAYER
+    public GameObject player;  // VARIAVEL QUE RECEBERA O OBJETO PLAYER
+    public float distance = 0f;
   
    
 
@@ -20,15 +21,19 @@ public class InimigoIA : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player"); // Irá procurar tag Player e jogar objeto na variavel
+        player = GameObject.FindWithTag("mainPlayer"); // Irá procurar tag Player e jogar objeto na variavel
 
         navMesh = GetComponent<NavMeshAgent>(); //NavMesh recebe objeto 
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         navMesh.destination = player.transform.position; //INIMIGO SEGUE O JOGADOR
+        if (Vector3.Distance(this.transform.position, player.transform.position) < 1.8f){
+            navMesh.stoppingDistance = 2.5f;
+        }
         
 
 
