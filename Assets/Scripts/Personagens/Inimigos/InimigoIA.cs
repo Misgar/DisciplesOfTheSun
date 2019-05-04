@@ -23,20 +23,18 @@ public class InimigoIA : MonoBehaviour
     {
         player = GameObject.FindWithTag("mainPlayer"); // Irá procurar tag Player e jogar objeto na variavel
 
-        navMesh = GetComponent<NavMeshAgent>(); //NavMesh recebe objeto 
+        navMesh = GetComponent<NavMeshAgent>(); //NavMesh recebe objeto
+         
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        navMesh.destination = player.transform.position; //INIMIGO SEGUE O JOGADOR
-        if (Vector3.Distance(this.transform.position, player.transform.position) < 1.8f){
-            navMesh.stoppingDistance = 2.5f;
-        }
+       
+        Debug.Log(Vector3.Distance(player.transform.position, this.transform.position));
+        navMesh.destination = player.transform.position;
         
-
-
     }
 
     void OnCollisionEnter(Collision collision){

@@ -10,7 +10,7 @@ public class Destruction : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-	}
+	} 
 
 	void OnTriggerEnter(Collider other){ 
 		if(other.gameObject.tag == "Player"){ 

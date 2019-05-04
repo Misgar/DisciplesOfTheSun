@@ -17,6 +17,7 @@ public class mainCharAtacksController : MonoBehaviour
             
             Attacks();
             attack = verifyAttack(); // boolean return 
+            
   
         }
     
@@ -40,6 +41,7 @@ public class mainCharAtacksController : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0)){  // Controlando as animações de acordo com o input inserido
             
             this.GetComponent<Animator>().Play("Stab");
+            
         }
 
         if (Input.GetKey(KeyCode.Mouse1) ){
