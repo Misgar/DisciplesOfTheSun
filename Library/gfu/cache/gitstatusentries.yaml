@@ -13,18 +13,542 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-28T15:56:47.493-03:00
-  initializedAtString: 2019-04-28T15:56:47.493-03:00
+  lastUpdatedAtString: 2019-05-02T17:44:25.005-03:00
+  initializedAtString: 2019-05-02T17:44:25.005-03:00
   entries:
+  - path: Assets\_Cenas\TESTING AREA.unity
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\TESTING
+      AREA.unity
+    projectPath: Assets\_Cenas\TESTING AREA.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\_Cenas\Tomb.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\Tomb.meta
+    projectPath: Assets\_Cenas\Tomb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\_Cenas\Tomb.unity
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\Tomb.unity
+    projectPath: Assets\_Cenas\Tomb.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\_Cenas\Tomb\NavMesh.asset
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\Tomb\NavMesh.asset
+    projectPath: Assets\_Cenas\Tomb\NavMesh.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\_Cenas\Tomb\NavMesh.asset.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\Tomb\NavMesh.asset.meta
+    projectPath: Assets\_Cenas\Tomb\NavMesh.asset.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\_Personagens\_Main Char\_Prefabs\Anubis AG Variant.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\_Main
+      Char\_Prefabs\Anubis AG Variant.prefab
+    projectPath: Assets\_Personagens\_Main Char\_Prefabs\Anubis AG Variant.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\_Personagens\_Main Char\_Prefabs\Anubis AG Variant.prefab.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\_Main
+      Char\_Prefabs\Anubis AG Variant.prefab.meta
+    projectPath: Assets\_Personagens\_Main Char\_Prefabs\Anubis AG Variant.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\_Personagens\_Main Char\_Prefabs\Arissa.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\_Main
+      Char\_Prefabs\Arissa.prefab
+    projectPath: Assets\_Personagens\_Main Char\_Prefabs\Arissa.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\_Personagens\_Main Char\_Prefabs\Inimigo Variant.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\_Main
+      Char\_Prefabs\Inimigo Variant.prefab
+    projectPath: Assets\_Personagens\_Main Char\_Prefabs\Inimigo Variant.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\_Personagens\_Main Char\_Prefabs\Inimigo Variant.prefab.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\_Main
+      Char\_Prefabs\Inimigo Variant.prefab.meta
+    projectPath: Assets\_Personagens\_Main Char\_Prefabs\Inimigo Variant.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\_Personagens\_Main Char\_Prefabs\LARRY Variant.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\_Main
+      Char\_Prefabs\LARRY Variant.prefab
+    projectPath: Assets\_Personagens\_Main Char\_Prefabs\LARRY Variant.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\_Personagens\_Main Char\_Prefabs\LARRY Variant.prefab.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\_Main
+      Char\_Prefabs\LARRY Variant.prefab.meta
+    projectPath: Assets\_Personagens\_Main Char\_Prefabs\LARRY Variant.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: "Assets\\_Personagens\\_Main Char\\Anima\xE7\xF5es\\Anubis Animations\\AnubisAController.controller"
+    fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples Of
+      Sun\\Assets\\_Personagens\\_Main Char\\Anima\xE7\xF5es\\Anubis Animations\\AnubisAController.controller"
+    projectPath: "Assets\\_Personagens\\_Main Char\\Anima\xE7\xF5es\\Anubis Animations\\AnubisAController.controller"
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: "Assets\\_Personagens\\Inimigos\\Anubis Anima\xE7\xF5es\\Anubis com faca.fbx.meta"
+    fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples Of
+      Sun\\Assets\\_Personagens\\Inimigos\\Anubis Anima\xE7\xF5es\\Anubis com faca.fbx.meta"
+    projectPath: "Assets\\_Personagens\\Inimigos\\Anubis Anima\xE7\xF5es\\Anubis com
+      faca.fbx.meta"
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Ancient Modular Tombs\Prefabs\Floor_destructible_5x5m.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Ancient
+      Modular Tombs\Prefabs\Floor_destructible_5x5m.prefab
+    projectPath: Assets\Ancient Modular Tombs\Prefabs\Floor_destructible_5x5m.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Animations.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations.meta
+    projectPath: Assets\Animations.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\_AnubisTesteAnimacao.anim
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\_AnubisTesteAnimacao.anim
+    projectPath: Assets\Animations\_AnubisTesteAnimacao.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\_AnubisTesteAnimacao.anim.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\_AnubisTesteAnimacao.anim.meta
+    projectPath: Assets\Animations\_AnubisTesteAnimacao.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Anubis com faca.controller
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Anubis
+      com faca.controller
+    projectPath: Assets\Animations\Anubis com faca.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Anubis com faca.controller.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Anubis
+      com faca.controller.meta
+    projectPath: Assets\Animations\Anubis com faca.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Bellydancing.controller
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Bellydancing.controller
+    projectPath: Assets\Animations\Bellydancing.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Bellydancing.controller.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Bellydancing.controller.meta
+    projectPath: Assets\Animations\Bellydancing.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Descendo_Escada.controller
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Descendo_Escada.controller
+    projectPath: Assets\Animations\Descendo_Escada.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Descendo_Escada.controller.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Descendo_Escada.controller.meta
+    projectPath: Assets\Animations\Descendo_Escada.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Running.controller
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Running.controller
+    projectPath: Assets\Animations\Running.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Running.controller.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Running.controller.meta
+    projectPath: Assets\Animations\Running.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Stairs.controller
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Stairs.controller
+    projectPath: Assets\Animations\Stairs.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\Stairs.controller.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\Stairs.controller.meta
+    projectPath: Assets\Animations\Stairs.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\teste.anim
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\teste.anim
+    projectPath: Assets\Animations\teste.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\teste.anim.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\teste.anim.meta
+    projectPath: Assets\Animations\teste.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\teste.controller
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\teste.controller
+    projectPath: Assets\Animations\teste.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\teste.controller.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\teste.controller.meta
+    projectPath: Assets\Animations\teste.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\teste_arissa.anim
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\teste_arissa.anim
+    projectPath: Assets\Animations\teste_arissa.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\teste_arissa.anim.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\teste_arissa.anim.meta
+    projectPath: Assets\Animations\teste_arissa.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\teste2.anim
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\teste2.anim
+    projectPath: Assets\Animations\teste2.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animations\teste2.anim.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Animations\teste2.anim.meta
+    projectPath: Assets\Animations\teste2.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Destruction.cs
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Scripts\Destruction.cs
+    projectPath: Assets\Scripts\Destruction.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Personagens\Inimigos\InimigoIA.cs
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Scripts\Personagens\Inimigos\InimigoIA.cs
+    projectPath: Assets\Scripts\Personagens\Inimigos\InimigoIA.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Personagens\Main\mainChar2.cs
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Scripts\Personagens\Main\mainChar2.cs
+    projectPath: Assets\Scripts\Personagens\Main\mainChar2.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Personagens\Main\mainCharAtacksController.cs
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Scripts\Personagens\Main\mainCharAtacksController.cs
+    projectPath: Assets\Scripts\Personagens\Main\mainCharAtacksController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Tree.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree.prefab
+    projectPath: Assets\Tree.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree.prefab.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree.prefab.meta
+    projectPath: Assets\Tree.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures.meta
+    projectPath: Assets\Tree_Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures\diffuse.png
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures\diffuse.png
+    projectPath: Assets\Tree_Textures\diffuse.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures\diffuse.png.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures\diffuse.png.meta
+    projectPath: Assets\Tree_Textures\diffuse.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures\normal_specular.png
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures\normal_specular.png
+    projectPath: Assets\Tree_Textures\normal_specular.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures\normal_specular.png.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures\normal_specular.png.meta
+    projectPath: Assets\Tree_Textures\normal_specular.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures\shadow.png
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures\shadow.png
+    projectPath: Assets\Tree_Textures\shadow.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures\shadow.png.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures\shadow.png.meta
+    projectPath: Assets\Tree_Textures\shadow.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures\translucency_gloss.png
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures\translucency_gloss.png
+    projectPath: Assets\Tree_Textures\translucency_gloss.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Tree_Textures\translucency_gloss.png.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Tree_Textures\translucency_gloss.png.meta
+    projectPath: Assets\Tree_Textures\translucency_gloss.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\Collab\CollabSnapshot_3a828eda-98df-4a93-a5f3-458fbfabbd68.txt
     fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\Collab\CollabSnapshot_3a828eda-98df-4a93-a5f3-458fbfabbd68.txt
     projectPath: Library\Collab\CollabSnapshot_3a828eda-98df-4a93-a5f3-458fbfabbd68.txt
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\EditorInstance.json
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentMaximizeLayout.dwlt
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\09\094aad54dc104c846ab8edd42c081587
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\09\094aad54dc104c846ab8edd42c081587
+    projectPath: Library\metadata\09\094aad54dc104c846ab8edd42c081587
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\38\385298c4733747648845d26b23ae2526
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\38\385298c4733747648845d26b23ae2526
+    projectPath: Library\metadata\38\385298c4733747648845d26b23ae2526
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\38\385298c4733747648845d26b23ae2526.info
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\38\385298c4733747648845d26b23ae2526.info
+    projectPath: Library\metadata\38\385298c4733747648845d26b23ae2526.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
+    projectPath: Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\49\4936982035d651944b8cccf3cb9f63df
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\49\4936982035d651944b8cccf3cb9f63df
+    projectPath: Library\metadata\49\4936982035d651944b8cccf3cb9f63df
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\92\92c079fdc95d2df49bdab48c7e07e192
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\92\92c079fdc95d2df49bdab48c7e07e192
+    projectPath: Library\metadata\92\92c079fdc95d2df49bdab48c7e07e192
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\94\942430bcad28cd84daa3ad7eaac562cd
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\94\942430bcad28cd84daa3ad7eaac562cd
+    projectPath: Library\metadata\94\942430bcad28cd84daa3ad7eaac562cd
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\94\942430bcad28cd84daa3ad7eaac562cd.info
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\94\942430bcad28cd84daa3ad7eaac562cd.info
+    projectPath: Library\metadata\94\942430bcad28cd84daa3ad7eaac562cd.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\f2\f2c6a9815181f224cb185febd1f9592e
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\f2\f2c6a9815181f224cb185febd1f9592e
+    projectPath: Library\metadata\f2\f2c6a9815181f224cb185febd1f9592e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\f2\f2c6a9815181f224cb185febd1f9592e.info
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\f2\f2c6a9815181f224cb185febd1f9592e.info
+    projectPath: Library\metadata\f2\f2c6a9815181f224cb185febd1f9592e.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
     originalPath: 
     status: 3
     staged: 0
@@ -34,243 +558,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
+  - path: Library\StateCache\Hierarchy\24b51d-mainStage.json
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\StateCache\Hierarchy\24b51d-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\24b51d-mainStage.json
     originalPath: 
-    status: 5
+    status: 3
     staged: 0
-  - path: Temp\ProcessJobs\0127cf7ec9e6a40b95d29fbe5b1666e8.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\0127cf7ec9e6a40b95d29fbe5b1666e8.clust
-    projectPath: Temp\ProcessJobs\0127cf7ec9e6a40b95d29fbe5b1666e8.clust
+  - path: Library\StateCache\SceneView\8dbaf0-mainStage.json
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\StateCache\SceneView\8dbaf0-mainStage.json
+    projectPath: Library\StateCache\SceneView\8dbaf0-mainStage.json
     originalPath: 
-    status: 5
+    status: 3
     staged: 0
-  - path: Temp\ProcessJobs\01a4fc7f9dd48379fbd54245fa63939f.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\01a4fc7f9dd48379fbd54245fa63939f.clust
-    projectPath: Temp\ProcessJobs\01a4fc7f9dd48379fbd54245fa63939f.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\06baf202d4afbe4b16d1b1a30584e066.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\06baf202d4afbe4b16d1b1a30584e066.clust
-    projectPath: Temp\ProcessJobs\06baf202d4afbe4b16d1b1a30584e066.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\06fb6899da32bc6e93d7ccdf62273ea1.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\06fb6899da32bc6e93d7ccdf62273ea1.clust
-    projectPath: Temp\ProcessJobs\06fb6899da32bc6e93d7ccdf62273ea1.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\08f14a8601381e62b6a30e2a6c61fa38.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\08f14a8601381e62b6a30e2a6c61fa38.clust
-    projectPath: Temp\ProcessJobs\08f14a8601381e62b6a30e2a6c61fa38.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\0990ce3b7b7b9a4dafafc82e2712ac01.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\0990ce3b7b7b9a4dafafc82e2712ac01.clust
-    projectPath: Temp\ProcessJobs\0990ce3b7b7b9a4dafafc82e2712ac01.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\0fa301467b843c3cb2ba4ae84dd14a26.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\0fa301467b843c3cb2ba4ae84dd14a26.clust
-    projectPath: Temp\ProcessJobs\0fa301467b843c3cb2ba4ae84dd14a26.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\220f535af59df307fbd5c05b16a66559.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\220f535af59df307fbd5c05b16a66559.clust
-    projectPath: Temp\ProcessJobs\220f535af59df307fbd5c05b16a66559.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\2296212a1067ae04ecd714b30793e26a.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\2296212a1067ae04ecd714b30793e26a.clust
-    projectPath: Temp\ProcessJobs\2296212a1067ae04ecd714b30793e26a.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\30366f363c253752ac061a62f6ad040a.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\30366f363c253752ac061a62f6ad040a.clust
-    projectPath: Temp\ProcessJobs\30366f363c253752ac061a62f6ad040a.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\3a70d528d68fad39ac66fe1f94486bd2.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\3a70d528d68fad39ac66fe1f94486bd2.clust
-    projectPath: Temp\ProcessJobs\3a70d528d68fad39ac66fe1f94486bd2.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\401d0ef83b66cd65b017b9806b79eb29.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\401d0ef83b66cd65b017b9806b79eb29.clust
-    projectPath: Temp\ProcessJobs\401d0ef83b66cd65b017b9806b79eb29.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\4925eccd8dceb43dcb95aff507480473.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\4925eccd8dceb43dcb95aff507480473.clust
-    projectPath: Temp\ProcessJobs\4925eccd8dceb43dcb95aff507480473.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\523d1393aabce20c81b96be068845f51.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\523d1393aabce20c81b96be068845f51.clust
-    projectPath: Temp\ProcessJobs\523d1393aabce20c81b96be068845f51.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\5a52097c74aaad0354c370710770f530.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\5a52097c74aaad0354c370710770f530.clust
-    projectPath: Temp\ProcessJobs\5a52097c74aaad0354c370710770f530.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\5d7a14e57b1f3a77338a9d6f58cb4802.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\5d7a14e57b1f3a77338a9d6f58cb4802.clust
-    projectPath: Temp\ProcessJobs\5d7a14e57b1f3a77338a9d6f58cb4802.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\5eb5fe69d013df45fb44d168dad57485.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\5eb5fe69d013df45fb44d168dad57485.clust
-    projectPath: Temp\ProcessJobs\5eb5fe69d013df45fb44d168dad57485.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\6bd2682ee621d714653855438ff9e03c.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\6bd2682ee621d714653855438ff9e03c.clust
-    projectPath: Temp\ProcessJobs\6bd2682ee621d714653855438ff9e03c.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\6d770da33377435699140ae92f80397c.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\6d770da33377435699140ae92f80397c.clust
-    projectPath: Temp\ProcessJobs\6d770da33377435699140ae92f80397c.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\71c29c73dd450358be5186aacb8793f3.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\71c29c73dd450358be5186aacb8793f3.clust
-    projectPath: Temp\ProcessJobs\71c29c73dd450358be5186aacb8793f3.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\7842d68967bb256997d8c3809738f2b4.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\7842d68967bb256997d8c3809738f2b4.clust
-    projectPath: Temp\ProcessJobs\7842d68967bb256997d8c3809738f2b4.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\7fdb2dc8e3f26056c54696b613fb8345.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\7fdb2dc8e3f26056c54696b613fb8345.clust
-    projectPath: Temp\ProcessJobs\7fdb2dc8e3f26056c54696b613fb8345.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\80d6e302f868fa51055c610bedb46559.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\80d6e302f868fa51055c610bedb46559.clust
-    projectPath: Temp\ProcessJobs\80d6e302f868fa51055c610bedb46559.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\80e851b200ffe340e13129ae91b063f7.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\80e851b200ffe340e13129ae91b063f7.clust
-    projectPath: Temp\ProcessJobs\80e851b200ffe340e13129ae91b063f7.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\98e6650469ba2a1a8a25eb467b26121b.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\98e6650469ba2a1a8a25eb467b26121b.clust
-    projectPath: Temp\ProcessJobs\98e6650469ba2a1a8a25eb467b26121b.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\9ecc9956ad41502114537d2ee26fa039.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\9ecc9956ad41502114537d2ee26fa039.clust
-    projectPath: Temp\ProcessJobs\9ecc9956ad41502114537d2ee26fa039.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\a2c74b1f9008284959d8d34c5d85a90c.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\a2c74b1f9008284959d8d34c5d85a90c.clust
-    projectPath: Temp\ProcessJobs\a2c74b1f9008284959d8d34c5d85a90c.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\ab5f0f3b2409621ad5ed61c830f4a9e9.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\ab5f0f3b2409621ad5ed61c830f4a9e9.clust
-    projectPath: Temp\ProcessJobs\ab5f0f3b2409621ad5ed61c830f4a9e9.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\c06a3f20b3bd2227c450600428e89cce.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\c06a3f20b3bd2227c450600428e89cce.clust
-    projectPath: Temp\ProcessJobs\c06a3f20b3bd2227c450600428e89cce.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\ca83ff8945197a3a8eff0dc7757d1468.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\ca83ff8945197a3a8eff0dc7757d1468.clust
-    projectPath: Temp\ProcessJobs\ca83ff8945197a3a8eff0dc7757d1468.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\d84dc97145de9b6a5f1258d1d750d636.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\d84dc97145de9b6a5f1258d1d750d636.clust
-    projectPath: Temp\ProcessJobs\d84dc97145de9b6a5f1258d1d750d636.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\dd9885d61419a23262b5db29d03cbaa2.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\dd9885d61419a23262b5db29d03cbaa2.clust
-    projectPath: Temp\ProcessJobs\dd9885d61419a23262b5db29d03cbaa2.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\e8a6b5a328fff411eb01b2cd7ffcb058.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\e8a6b5a328fff411eb01b2cd7ffcb058.clust
-    projectPath: Temp\ProcessJobs\e8a6b5a328fff411eb01b2cd7ffcb058.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\ee5f28958d4d911635ac4502c69d55c0.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\ee5f28958d4d911635ac4502c69d55c0.clust
-    projectPath: Temp\ProcessJobs\ee5f28958d4d911635ac4502c69d55c0.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\f0b2dfdf4169195e1d0707efd0b299f7.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\f0b2dfdf4169195e1d0707efd0b299f7.clust
-    projectPath: Temp\ProcessJobs\f0b2dfdf4169195e1d0707efd0b299f7.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\f0ed42cef2f09a5d50433c9f016758c3.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\f0ed42cef2f09a5d50433c9f016758c3.clust
-    projectPath: Temp\ProcessJobs\f0ed42cef2f09a5d50433c9f016758c3.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\ProcessJobs\f40dcaaae6f2b51aa0e088a754f5c806.clust
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\ProcessJobs\f40dcaaae6f2b51aa0e088a754f5c806.clust
-    projectPath: Temp\ProcessJobs\f40dcaaae6f2b51aa0e088a754f5c806.clust
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp\UnityLockfile
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
+  - path: ProjectSettings\TagManager.asset
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
     originalPath: 
     status: 3
     staged: 0

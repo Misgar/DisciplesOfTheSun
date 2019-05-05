@@ -15,7 +15,7 @@ public class mainChar2 : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        transform.tag = "Player"; //SETA TAG PLAYER AO INICIAR
+        transform.tag = "mainPlayer"; //SETA TAG PLAYER AO INICIAR
      
     
     }
