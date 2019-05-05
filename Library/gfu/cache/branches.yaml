@@ -13,15 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-05-03T18:43:45.056-03:00
-  initializedAtString: 2019-05-03T18:43:44.992-03:00
+  lastUpdatedAtString: 2019-05-05T17:34:28.331-03:00
+  initializedAtString: 2019-05-05T17:34:28.303-03:00
   localBranches:
   - name: master
+    tracking: 
+  - name: RenatoAO
     tracking: 
   - name: sun
     tracking: 
   remoteBranches:
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/RenatoAO
     tracking: '[None]'
   - name: origin/sun
     tracking: '[None]'
@@ -36,9 +40,15 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - RenatoAO
     - sun
     values:
     - name: master
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: RenatoAO
       remote:
         name: 
         url: 
@@ -54,10 +64,16 @@ MonoBehaviour:
     subKeys:
     - Values:
       - master
+      - RenatoAO
       - sun
     subKeyValues:
     - Values:
       - name: master
+        remote:
+          name: origin
+          url: https://github.com/Misgar/DisciplesOfSun.git
+        trackingBranch: 
+      - name: RenatoAO
         remote:
           name: origin
           url: https://github.com/Misgar/DisciplesOfSun.git
