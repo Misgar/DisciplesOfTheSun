@@ -13,9 +13,347 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-05-03T18:43:46.690-03:00
-  initializedAtString: 2019-05-03T18:43:46.451-03:00
+  lastUpdatedAtString: 2019-05-04T17:36:00.528-03:00
+  initializedAtString: 2019-05-04T17:36:00.528-03:00
   log:
+  - commitID: b39f1eeaeb9327643806075844c35eac3086dba3
+    mergeA: 
+    mergeB: 
+    authorName: Renato AO
+    authorEmail: renato.oliveira34@fatec.sp.gov.br
+    commitEmail: renato.oliveira34@fatec.sp.gov.br
+    commitName: Renato AO
+    summary: "Adicionadas as anima\xE7\xF5es definitivas que ser\xE3o programadas
+      no Anubis na tumba. Adicionado a malha de navega\xE7\xE3o ao cenario interno
+      para funcionamento da IA. Realizando melhorias no controle de combate para finaliza\xE7\xE3o."
+    description: 
+    timeString: 2019-05-04T13:57:47.000-03:00
+    commitTimeString: 2019-05-04T13:57:47.000-03:00
+    changes:
+    - path: Assets\Scripts\Destruction.cs
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Scripts\Destruction.cs
+      projectPath: Assets\Scripts\Destruction.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Personagens\Inimigos\InimigoIA.cs
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Scripts\Personagens\Inimigos\InimigoIA.cs
+      projectPath: Assets\Scripts\Personagens\Inimigos\InimigoIA.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Personagens\Main\mainCharAtacksController.cs
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Scripts\Personagens\Main\mainCharAtacksController.cs
+      projectPath: Assets\Scripts\Personagens\Main\mainCharAtacksController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\_Cenas\TESTING AREA.unity
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\TESTING
+        AREA.unity
+      projectPath: Assets\_Cenas\TESTING AREA.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\_Cenas\Tomb.unity
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\Tomb.unity
+      projectPath: Assets\_Cenas\Tomb.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\_Personagens\Inimigos\_AnubisComFaca.meta
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\Inimigos\_AnubisComFaca.meta
+      projectPath: Assets\_Personagens\Inimigos\_AnubisComFaca.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
+        Walk Back.fbx"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
+        Walk Back.fbx"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
+        Walk Back.fbx"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
+        Walk Back.fbx.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
+        Walk Back.fbx.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
+        Walk Back.fbx.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Death.fbx"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Death.fbx"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Death.fbx"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Death.fbx.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Death.fbx.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Death.fbx.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Dying.fbx"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Dying.fbx"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Dying.fbx"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Dying.fbx.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Dying.fbx.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Dying.fbx.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Idle.fbx"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Idle.fbx"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Idle.fbx"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Idle.fbx.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Idle.fbx.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Idle.fbx.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Punching.fbx"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Punching.fbx"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Punching.fbx"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Punching.fbx.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Punching.fbx.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Punching.fbx.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Reaction Hit.fbx"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Reaction Hit.fbx"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Reaction Hit.fbx"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Reaction Hit.fbx.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Reaction Hit.fbx.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Reaction Hit.fbx.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Run.fbx"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Run.fbx"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Run.fbx"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Run.fbx.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Run.fbx.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Run.fbx.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Scream.fbx"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Scream.fbx"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Scream.fbx"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Scream.fbx.meta"
+      fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples
+        Of Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Scream.fbx.meta"
+      projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
+        Scream.fbx.meta"
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller
+      projectPath: Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller.meta
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller.meta
+      projectPath: Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\24b51d-mainStage.json
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\StateCache\Hierarchy\24b51d-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\24b51d-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\8dbaf0-mainStage.json
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\StateCache\SceneView\8dbaf0-mainStage.json
+      projectPath: Library\StateCache\SceneView\8dbaf0-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
+      projectPath: Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\49\4936982035d651944b8cccf3cb9f63df
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\49\4936982035d651944b8cccf3cb9f63df
+      projectPath: Library\metadata\49\4936982035d651944b8cccf3cb9f63df
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\92\92c079fdc95d2df49bdab48c7e07e192
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\92\92c079fdc95d2df49bdab48c7e07e192
+      projectPath: Library\metadata\92\92c079fdc95d2df49bdab48c7e07e192
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 83201bd3f0a7fb65264206ab47e6e619757ae5c7
     mergeA: 
     mergeB: 
