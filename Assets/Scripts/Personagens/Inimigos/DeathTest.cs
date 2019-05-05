@@ -12,28 +12,36 @@ public class DeathTest : MonoBehaviour
       enemyLife();
 
       enemyBool = mainChar.GetComponent<mainCharAtacksController>().attack;
-      Debug.Log(mainChar.GetComponent<mainCharAtacksController>().attack);
+      
 
     }
    public void OnTriggerEnter(Collider c){
+     
         if(mainChar.GetComponent<mainCharAtacksController>().attack == true){
-
+          Debug.Log(c.name);
+          
          // Debug.Log(mainChar.GetComponent<mainCharAtacksController>().attack);
 
           if(c.name == "arissa:RightArm" || c.name == "arissa:RightLeg")
           {
+            Debug.Log("a");
 
-            this.GetComponent<Animator>().Play("Standard_hitted");
+            this.GetComponent<Animator>().Play("enemy_Hitted");
             enemy_hp -= 1;
             
+            
             Debug.Log(enemy_hp);
+
           }
         }
    }
 
    public void enemyLife(){
      if (enemy_hp <= 0){
-       this.GetComponent<Animator>().Play("Death");
+       this.GetComponent<Animator>().Play("enemy_Death");
+       this.GetComponent<DeathTest>().enabled = false;
+       this.GetComponent<InimigoIA>().enabled = false;
+       this.GetComponent<CapsuleCollider>().enabled = false;
      }
    }
   

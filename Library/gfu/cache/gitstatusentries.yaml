@@ -13,32 +13,83 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-05-04T21:56:31.840-03:00
-  initializedAtString: 2019-05-04T14:36:22.569-03:00
+  lastUpdatedAtString: 2019-05-05T17:30:23.649-03:00
+  initializedAtString: 2019-05-05T17:30:23.649-03:00
   entries:
-  - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
-      Walk Back.fbx.meta"
-    fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples Of
-      Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
-      Walk Back.fbx.meta"
-    projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Standing
-      Walk Back.fbx.meta"
+  - path: Assets\_Cenas\TESTING AREA.unity
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\TESTING
+      AREA.unity
+    projectPath: Assets\_Cenas\TESTING AREA.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\_Cenas\Tomb.unity
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Cenas\Tomb.unity
+    projectPath: Assets\_Cenas\Tomb.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\_Personagens\_Main Char\_Prefabs\LARRY Variant.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\_Main
+      Char\_Prefabs\LARRY Variant.prefab
+    projectPath: Assets\_Personagens\_Main Char\_Prefabs\LARRY Variant.prefab
     originalPath: 
     status: 3
     staged: 0
   - path: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
-      Run.fbx.meta"
+      Death.fbx.meta"
     fullPath: "C:\\Users\\renat\\Documents\\_UnityProjects\\MainGame\\Disciples Of
       Sun\\Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
-      Run.fbx.meta"
+      Death.fbx.meta"
     projectPath: "Assets\\_Personagens\\Inimigos\\_AnubisComFaca\\Anima\xE7\xF5es\\Zombie
-      Run.fbx.meta"
+      Death.fbx.meta"
     originalPath: 
     status: 3
     staged: 0
   - path: Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller
     fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller
     projectPath: Assets\_Personagens\Inimigos\_AnubisComFaca\enemyController.controller
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\other prefabs.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\other
+      prefabs.meta
+    projectPath: Assets\other prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\other prefabs\Arissa Variant.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\other
+      prefabs\Arissa Variant.prefab
+    projectPath: Assets\other prefabs\Arissa Variant.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\other prefabs\Arissa Variant.prefab.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\other
+      prefabs\Arissa Variant.prefab.meta
+    projectPath: Assets\other prefabs\Arissa Variant.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\other prefabs\Arissa_ta.prefab
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\other
+      prefabs\Arissa_ta.prefab
+    projectPath: Assets\other prefabs\Arissa_ta.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\other prefabs\Arissa_ta.prefab.meta
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\other
+      prefabs\Arissa_ta.prefab.meta
+    projectPath: Assets\other prefabs\Arissa_ta.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Personagens\Inimigos\DeathTest.cs
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Assets\Scripts\Personagens\Inimigos\DeathTest.cs
+    projectPath: Assets\Scripts\Personagens\Inimigos\DeathTest.cs
     originalPath: 
     status: 3
     staged: 0
@@ -54,9 +105,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
+  - path: Library\Collab\CollabSnapshot_3a828eda-98df-4a93-a5f3-458fbfabbd68.txt
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\Collab\CollabSnapshot_3a828eda-98df-4a93-a5f3-458fbfabbd68.txt
+    projectPath: Library\Collab\CollabSnapshot_3a828eda-98df-4a93-a5f3-458fbfabbd68.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -78,9 +141,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
-    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
-    projectPath: Library\metadata\44\440b9f326fd661345a2c1c38fdee69e8
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\03\03e1816af25b9634aaf8f703a721cb04
+    fullPath: C:\Users\renat\Documents\_UnityProjects\MainGame\Disciples Of Sun\Library\metadata\03\03e1816af25b9634aaf8f703a721cb04
+    projectPath: Library\metadata\03\03e1816af25b9634aaf8f703a721cb04
     originalPath: 
     status: 3
     staged: 0

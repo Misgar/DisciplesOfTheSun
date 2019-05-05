@@ -37,8 +37,9 @@ public class InimigoIA : MonoBehaviour
             begin = this.Begin();
             
         }
-        if (begin == false && distance <= 3f) {
+        if (begin == false && distance <= 0.5f) {
                 this.GetComponent<Animator>().Play("enemy_Attack");
+                
 
             }
    
@@ -62,7 +63,7 @@ public class InimigoIA : MonoBehaviour
 
     public void Combat(){
         
-             Debug.Log("AOSKJDASKD");
+             Debug.Log("Debug Combat");
 
             this.GetComponent<Animator>().Play("enemy_Attack");
         

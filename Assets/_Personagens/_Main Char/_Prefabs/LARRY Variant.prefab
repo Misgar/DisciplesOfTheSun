@@ -6,7 +6,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7210487451257785523}
+  m_GameObject: {fileID: 8182935904221120443}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -19,7 +19,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7210487451257785523}
+  m_GameObject: {fileID: 8182935904221120443}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03e1816af25b9634aaf8f703a721cb04, type: 3}
@@ -27,7 +27,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainChar: {fileID: 0}
   enemyBool: 0
---- !u!1001 &7210487451257686611
+--- !u!1001 &8182935904221020507
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -100,9 +100,9 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 176e53082bfb17f47a66eb7d46ea2291, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a5a14b9b3851e24486af5e142b9a4e6, type: 3}
---- !u!1 &7210487451257785523 stripped
+--- !u!1 &8182935904221120443 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100064, guid: 3a5a14b9b3851e24486af5e142b9a4e6,
     type: 3}
-  m_PrefabInstance: {fileID: 7210487451257686611}
+  m_PrefabInstance: {fileID: 8182935904221020507}
   m_PrefabAsset: {fileID: 0}

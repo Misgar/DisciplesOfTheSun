@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-05-04T17:35:59.473-03:00
-  initializedAtString: 2019-05-04T14:36:22.296-03:00
+  lastUpdatedAtString: 2019-05-05T17:30:23.610-03:00
+  initializedAtString: 2019-05-05T17:30:23.610-03:00
   currentGitRemote:
     name: origin
     url: https://github.com/Misgar/DisciplesOfSun.git
@@ -24,10 +24,10 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: RenatoAO
+    name: master
     tracking: 
   currentConfigBranch:
-    name: RenatoAO
+    name: master
     remote:
       name: 
       url: 
