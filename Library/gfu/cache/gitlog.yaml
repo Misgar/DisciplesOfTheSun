@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-05-05T17:34:03.201-03:00
   initializedAtString: 2019-05-05T17:34:03.201-03:00
   log:
@@ -139,6 +140,11 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+=======
+  lastUpdatedAtString: 2019-05-04T17:36:00.528-03:00
+  initializedAtString: 2019-05-04T17:36:00.528-03:00
+  log:
+>>>>>>> master
   - commitID: b39f1eeaeb9327643806075844c35eac3086dba3
     mergeA: 
     mergeB: 
