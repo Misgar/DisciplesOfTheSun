@@ -2718,6 +2718,31 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5881664446535166592, guid: 84b30f700f30bba48b0943a4228273df,
+        type: 3}
+      propertyPath: m_Text
+      value: SAIR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881664446765111577, guid: 84b30f700f30bba48b0943a4228273df,
+        type: 3}
+      propertyPath: m_Text
+      value: MENU PRINCIPAL
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881664446975947954, guid: 84b30f700f30bba48b0943a4228273df,
+        type: 3}
+      propertyPath: m_Text
+      value: CONTINUAR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881664446975947954, guid: 84b30f700f30bba48b0943a4228273df,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5881664446562392744, guid: 84b30f700f30bba48b0943a4228273df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84b30f700f30bba48b0943a4228273df, type: 3}
 --- !u!1001 &1998148245
