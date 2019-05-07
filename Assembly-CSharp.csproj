@@ -165,6 +165,7 @@
      <Compile Include="Assets\Scripts\Personagens\Main\mainCharAtacksController.cs" />
      <Compile Include="Assets\Scripts\Personagens\Main\MainCharCameraControll.cs" />
      <Compile Include="Assets\Scripts\Personagens\Main\MovimentosCharPrincipal.cs" />
+     <Compile Include="Assets\Scripts\Personagens\Main\Stairs.cs" />
      <Compile Include="Assets\Scripts\testeCollider.cs" />
      <Compile Include="Assets\VolumeValueChange.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
