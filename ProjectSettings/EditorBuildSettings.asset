@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Cenas/Pyramid.unity
     guid: afdf991e819284b408e45adac4f37fa2
+  - enabled: 1
+    path: Assets/_Cenas/Tomb.unity
+    guid: 29e9c5d5ae9af3b45bd6d1e30bd6a710
   m_configObjects: {}
