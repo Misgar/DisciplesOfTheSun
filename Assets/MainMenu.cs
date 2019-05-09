@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    //Variáveis do pause
     public Button newGameButton;
     public Button optionsButton;
     public Button exitGameButton;
@@ -41,8 +42,8 @@ public class MainMenu : MonoBehaviour
 
     public void ExitGame()
     {
-        Debug.Log("Trying to exit the game");
         Application.Quit();
     }
+
 }
 

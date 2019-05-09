@@ -149,7 +149,6 @@
      <Compile Include="Assets\Assets PARA TESTES\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Assets PARA TESTES\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\MainMenu.cs" />
-     <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Cenario\Arrows_trap.cs" />
      <Compile Include="Assets\Scripts\Cenario\Large_door_demo.cs" />
      <Compile Include="Assets\Scripts\Cenario\Stone_gate_trap.cs" />
@@ -159,6 +158,7 @@
      <Compile Include="Assets\Scripts\Menu\ControladorSomMenu.cs" />
      <Compile Include="Assets\Scripts\Menu\IntroScript.cs" />
      <Compile Include="Assets\Scripts\Menu\Level_loading.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Personagens\Inimigos\DeathTest.cs" />
      <Compile Include="Assets\Scripts\Personagens\Inimigos\InimigoIA.cs" />
      <Compile Include="Assets\Scripts\Personagens\Main\mainChar2.cs" />
@@ -167,7 +167,8 @@
      <Compile Include="Assets\Scripts\Personagens\Main\MovimentosCharPrincipal.cs" />
      <Compile Include="Assets\Scripts\Personagens\Main\Stairs.cs" />
      <Compile Include="Assets\Scripts\testeCollider.cs" />
-     <Compile Include="Assets\VolumeValueChange.cs" />
+     <Compile Include="Assets\Scripts\VolumeValueChange.cs" />
+     <Compile Include="Assets\TriggerControl.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -377,9 +378,6 @@
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.GoogleAudioSpatializer">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>

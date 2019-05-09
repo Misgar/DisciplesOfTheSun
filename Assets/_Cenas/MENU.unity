@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -217,6 +217,8 @@ Transform:
   - {fileID: 180787844}
   - {fileID: 276608362}
   - {fileID: 1664603293}
+  - {fileID: 225143948}
+  - {fileID: 263369958}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -369,6 +371,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.034, y: 90.121, z: -0.065000005}
+--- !u!4 &225143948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2953904458725599212, guid: 5a0571724f7d4ad4492d80a8a0c81e47,
+    type: 3}
+  m_PrefabInstance: {fileID: 659776880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &263369958 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8606194948218266432, guid: 1c388871016a5c84fa9c114fac9df3fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1705546617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &276608361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1112,7 +1126,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 123007364}
     m_Modifications:
     - target: {fileID: 2953904458725959516, guid: 5a0571724f7d4ad4492d80a8a0c81e47,
         type: 3}
@@ -1122,17 +1136,17 @@ PrefabInstance:
     - target: {fileID: 2953904458725599212, guid: 5a0571724f7d4ad4492d80a8a0c81e47,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.27
+      value: -466.00537
       objectReference: {fileID: 0}
     - target: {fileID: 2953904458725599212, guid: 5a0571724f7d4ad4492d80a8a0c81e47,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.980195
+      value: 12.963051
       objectReference: {fileID: 0}
     - target: {fileID: 2953904458725599212, guid: 5a0571724f7d4ad4492d80a8a0c81e47,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.82
+      value: 6.2091885
       objectReference: {fileID: 0}
     - target: {fileID: 2953904458725599212, guid: 5a0571724f7d4ad4492d80a8a0c81e47,
         type: 3}
@@ -1157,7 +1171,7 @@ PrefabInstance:
     - target: {fileID: 2953904458725599212, guid: 5a0571724f7d4ad4492d80a8a0c81e47,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2953904458725599212, guid: 5a0571724f7d4ad4492d80a8a0c81e47,
         type: 3}
@@ -1247,7 +1261,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OPTIONS
+  m_Text: "OP\xC7\xD5ES"
 --- !u!222 &964823927
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2247,7 +2261,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 123007364}
     m_Modifications:
     - target: {fileID: 8602685392487959866, guid: 1c388871016a5c84fa9c114fac9df3fc,
         type: 3}
@@ -2257,17 +2271,17 @@ PrefabInstance:
     - target: {fileID: 8606194948218266432, guid: 1c388871016a5c84fa9c114fac9df3fc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.88
+      value: -457.39536
       objectReference: {fileID: 0}
     - target: {fileID: 8606194948218266432, guid: 1c388871016a5c84fa9c114fac9df3fc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.65
+      value: -7.667144
       objectReference: {fileID: 0}
     - target: {fileID: 8606194948218266432, guid: 1c388871016a5c84fa9c114fac9df3fc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.03
+      value: 3.3591883
       objectReference: {fileID: 0}
     - target: {fileID: 8606194948218266432, guid: 1c388871016a5c84fa9c114fac9df3fc,
         type: 3}
@@ -2292,7 +2306,7 @@ PrefabInstance:
     - target: {fileID: 8606194948218266432, guid: 1c388871016a5c84fa9c114fac9df3fc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8606194948218266432, guid: 1c388871016a5c84fa9c114fac9df3fc,
         type: 3}
@@ -2551,7 +2565,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: START THE GAME
+  m_Text: INICIAR JOGO
 --- !u!222 &2019542296
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2820,7 +2834,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: EXIT
+  m_Text: SAIR
 --- !u!222 &2099376848
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2915,7 +2929,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Disciples of the Sun
+  m_Text: "Disc\xEDpulos do Sol"
 --- !u!222 &2123724218
 CanvasRenderer:
   m_ObjectHideFlags: 0
