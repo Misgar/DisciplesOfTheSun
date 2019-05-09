@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class DeathTest : MonoBehaviour
 {
+  
     public GameObject mainChar;
     private float enemy_hp = 3F;
     public bool enemyBool;
 
     void Update(){
-      enemyLife();
+      if (enemy_hp <= 0){
+        enemyDeathDisable();
+      }
 
       enemyBool = mainChar.GetComponent<mainCharAtacksController>().attack;
       
@@ -36,13 +39,16 @@ public class DeathTest : MonoBehaviour
         }
    }
 
-   public void enemyLife(){
-     if (enemy_hp <= 0){
+   public void enemyDeathDisable(){
+    // this.transform.position = new Vector3(this.transform.position.x, -10.92f, this.transform.position.z);
        this.GetComponent<Animator>().Play("enemy_Death");
+       
        this.GetComponent<DeathTest>().enabled = false;
+       
        this.GetComponent<InimigoIA>().enabled = false;
-       this.GetComponent<CapsuleCollider>().enabled = false;
-     }
+
+       //this.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+     
    }
   
   }
