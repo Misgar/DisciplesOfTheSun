@@ -22,7 +22,9 @@ public class InimigoIA : MonoBehaviour
     {
         player = GameObject.FindWithTag("mainPlayer"); // Irá procurar tag Player e jogar objeto na variavel
 
-        navMesh = GetComponent<NavMeshAgent>(); //NavMesh recebe objeto
+        navMesh = GetComponent<NavMeshAgent>();
+        navMesh.height = 0.5f; //NavMesh recebe objeto
+        navMesh.baseOffset = 0;
         objLocation = this.transform.position; // Guarda posição inicial do objeto.
     }
 
@@ -30,19 +32,19 @@ public class InimigoIA : MonoBehaviour
     void Update(){
         distance = CalculateDistance(player);
 
-        navMesh.destination = player.transform.position;
+        
 
         if (begin == true && distance < 9.5f){
             
             begin = this.Begin();
+            navMesh.destination = player.transform.position;
             
         }
-        if (begin == false && distance <= 0.5f) {
+        if (begin == false && distance <= 1.2f) 
+         {
                 this.GetComponent<Animator>().Play("enemy_Attack");
-                
 
-            }
-   
+            } 
     }
 
     void OnCollisionEnter(Collision collision){
