@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/_Cenas/MENU.unity
-=======
-- path: Assets/_Cenas/_Intro.unity
->>>>>>> 53f8a2c4523d6ecdef859313cdfcefaf0ec54d19
+- path: Assets/_Cenas/Tomb.unity
   isLoaded: 1
   isActive: 1
