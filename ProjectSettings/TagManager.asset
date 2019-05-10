@@ -8,6 +8,7 @@ TagManager:
   - Inimigo2
   - Trigger
   - mainPlayer
+  - Pause
   layers:
   - Default
   - TransparentFX
