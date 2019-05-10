@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 public class TriggerControl : MonoBehaviour
 {
     //public GameObject sceneChange;
-    //public string sceneName;
+    public string sceneName;
 
     void OnTriggerEnter(Collider hit){
-        if (hit.tag == "Player"){
+        Debug.Log("Atravessou sa porra");
+        SceneManager.LoadScene(sceneName);
+        //if (hit.gameObject.tag == "Player"){
             //Application.LoadLevelAdditive(3);
             //SceneManager.LoadScene("Tomb");
-            Debug.Log("VTNC");
-        }
+        //    Debug.Log("Aqui será o LoadScene");
+       // }
     }
 }

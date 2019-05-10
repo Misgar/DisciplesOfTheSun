@@ -169,6 +169,7 @@
      <Compile Include="Assets\Scripts\testeCollider.cs" />
      <Compile Include="Assets\Scripts\VolumeValueChange.cs" />
      <Compile Include="Assets\TriggerControl.cs" />
+     <Compile Include="Assets\TriggerControlPyramidScene.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
