@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -10,38 +11,36 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public string scene;
         
-    // Update is called once per frame
     void Update()
     {
-    //Se a tecla esc for presionada
-    if (Input.GetKeyDown(KeyCode.Escape))
-    {
-        //Se o jogo já está pausado
-        if (GameIsPaused)
+    //Se a tecla esc for pressionada
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
+        //Se o jogo já está pausado
+            if (GameIsPaused)
+            {
                 Resume();
-        }
-            else
+            }
+                else
             {
                 Pause();
             }
-    }
+        }
     }
     public void Resume()
     {
+        //Desativa a UI de menu pausado
         pauseMenuUI.SetActive(false);
         GameIsPaused = false;
-        Time.timeScale = 1f;
+        Time.timeScale = 1;
     }
 
-    void Pause()
-    {
-        //Ativando a UI de menu pausado
+    public void Pause()
+    { 
         pauseMenuUI.SetActive(true);
-        //Define a velocidade que o game passará. No causa de Pause, o tempo deve parar totalmente
-        Time.timeScale = 0f;
+        //Define a velocidade que o game passará. No caso de Pause, o tempo deve parar totalmente
+        Time.timeScale = 0;
         GameIsPaused = true;
-
     }
 
     public void LoadMenu()

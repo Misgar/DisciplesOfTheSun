@@ -32,9 +32,6 @@ public class InimigoIA : MonoBehaviour
     void Update(){
         distance = CalculateDistance(player);
         Follow();
-
-        
-
         if (begin == true && distance < 9.5f){
             follow = true;
             begin = this.Begin();

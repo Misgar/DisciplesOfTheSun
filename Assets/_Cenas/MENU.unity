@@ -1411,8 +1411,8 @@ PrefabInstance:
     m_TransformParent: {fileID: 123007364}
     m_Modifications:
     - target: {fileID: 121298, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      propertyPath: m_Name
+      value: Torchfire
       objectReference: {fileID: 0}
     - target: {fileID: 442912, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1446,57 +1446,17 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 8209830, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: BypassEffects
+    - target: {fileID: 442912, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8209830, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: Mute
+    - target: {fileID: 442912, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8209830, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: BypassListenerEffects
+    - target: {fileID: 442912, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209830, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: BypassReverbZones
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209830, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209830, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: MaxDistance
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209830, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: MinDistance
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8209830, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
-      value: 1.017
-      objectReference: {fileID: 0}
-    - target: {fileID: 117948, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 191238, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 196502, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 169592, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 10835704, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
-      propertyPath: m_RenderMode
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb065d8d84b3af04f8026a5e6573c9ac, type: 3}
