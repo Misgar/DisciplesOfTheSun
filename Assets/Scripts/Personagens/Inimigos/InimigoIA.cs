@@ -15,7 +15,7 @@ public class InimigoIA : MonoBehaviour
     public float distance; // Distância entre this.object e player
     
     public Vector3 objLocation; //Posição do objeto atual.
-    public bool begin = true;
+    public bool begin = true, follow = false;
     private NavMeshAgent navMesh; //Para seguir o jogador
 
     void Start()
@@ -31,14 +31,14 @@ public class InimigoIA : MonoBehaviour
     // Update is called once per frame
     void Update(){
         distance = CalculateDistance(player);
+        Follow();
 
         
 
         if (begin == true && distance < 9.5f){
-            
+            follow = true;
             begin = this.Begin();
-            navMesh.destination = player.transform.position;
-            
+                     
         }
         if (begin == false && distance <= 1.2f) 
          {
@@ -47,11 +47,6 @@ public class InimigoIA : MonoBehaviour
             } 
     }
 
-    void OnCollisionEnter(Collision collision){
-        Debug.Log("Houve uma colisão com " + collision.collider.tag);
-       
-    }
-    
     public float CalculateTimePassed(){ // METODO PARA CALCULAR TEMPO REAL, EM SEGUNDOS
 
             timer += Time.deltaTime;
@@ -76,5 +71,11 @@ public class InimigoIA : MonoBehaviour
 
         return false;
 
+    }
+    public void Follow(){
+        if(distance >= 4f){
+        navMesh.destination = player.transform.position;
+
+        }
     }
 }
