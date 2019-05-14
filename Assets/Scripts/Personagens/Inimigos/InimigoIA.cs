@@ -40,7 +40,7 @@ public class InimigoIA : MonoBehaviour
             begin = this.Begin();
                      
         }
-        if (begin == false && distance <= 1.2f) 
+        if (begin == false && distance <= 0.8f) 
          {
                 this.GetComponent<Animator>().Play("enemy_Attack");
 
