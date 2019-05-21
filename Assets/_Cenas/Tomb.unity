@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000530, guid: 52dedd3e4d346684193659ec9f4420d9,
+  m_LightingDataAsset: {fileID: 112000000, guid: 07ebee37b52bd304d8f6fd803c97bebe,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -1937,6 +1937,7 @@ MonoBehaviour:
   distance: 0
   objLocation: {x: 0, y: 0, z: 0}
   begin: 1
+  follow: 0
 --- !u!4 &194921894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400064, guid: ad5b890683b5f6945a44428fdb2e72bb,
@@ -17480,7 +17481,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1864277822
 PrefabInstance:
