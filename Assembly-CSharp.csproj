@@ -148,6 +148,7 @@
      <Compile Include="Assets\Assets PARA TESTES\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\Assets PARA TESTES\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Assets PARA TESTES\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\CameraStuff.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Cenario\Arrows_trap.cs" />
      <Compile Include="Assets\Scripts\Cenario\Large_door_demo.cs" />
