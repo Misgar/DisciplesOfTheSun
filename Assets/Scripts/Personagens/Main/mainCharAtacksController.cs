@@ -7,7 +7,9 @@ public class mainCharAtacksController : MonoBehaviour
 {
     public GameObject enemy;
     public bool attack = false;
-     // Update is called once per frame
+    // Update is called once per frame
+
+    private AudioSource _audioA; //Soco da personagem 
     void Update()
     {
             //Chamada de Metodos
@@ -39,12 +41,14 @@ public class mainCharAtacksController : MonoBehaviour
     public bool Attacks(){ // Metodo Reservado para controle manual de animações de combate
 
         if (Input.GetKey(KeyCode.Mouse0)){  // Controlando as animações de acordo com o input inserido
-            
+           _audioA = GetComponent<AudioSource>();
+           _audioA.Play();
             this.GetComponent<Animator>().Play("Stab");
             
         }
 
         if (Input.GetKey(KeyCode.Mouse1) ){
+  
             this.GetComponent<Animator>().Play("Kick");
         }
         return false;

@@ -18,9 +18,13 @@ public class InimigoIA : MonoBehaviour
     public bool begin = true, follow = false;
     private NavMeshAgent navMesh; //Para seguir o jogador
 
+    private AudioSource audioSource; //Para Scream do anubis 
+
     void Start()
     {
         player = GameObject.FindWithTag("mainPlayer"); // Irá procurar tag Player e jogar objeto na variavel
+
+         audioSource = GetComponent<AudioSource>();
 
         navMesh = GetComponent<NavMeshAgent>();
         navMesh.height = 0.5f; //NavMesh recebe objeto
@@ -63,9 +67,10 @@ public class InimigoIA : MonoBehaviour
         
     }
     public bool Begin(){
+       
+        audioSource.Play();
         this.GetComponent<Animator>().Play("enemy_Scream"); //Scream seguido de run, devido ao exit time
-
-
+        
         return false;
 
     }
