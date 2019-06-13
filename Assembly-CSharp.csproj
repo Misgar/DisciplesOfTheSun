@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DD65722F-C9E1-9EAE-59ED-F05FCF518F26}</ProjectGuid>
+    <ProjectGuid>{F3BEF946-1C2E-E8B4-4EC8-1DB90F40076F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -148,6 +148,7 @@
      <Compile Include="Assets\Assets PARA TESTES\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\Assets PARA TESTES\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Assets PARA TESTES\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\CameraStuff.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Cenario\Arrows_trap.cs" />
      <Compile Include="Assets\Scripts\Cenario\Large_door_demo.cs" />
@@ -168,22 +169,27 @@
      <Compile Include="Assets\Scripts\Personagens\Main\Stairs.cs" />
      <Compile Include="Assets\Scripts\testeCollider.cs" />
      <Compile Include="Assets\Scripts\VolumeValueChange.cs" />
-     <Compile Include="Assets\TriggerControl.cs" />
-     <Compile Include="Assets\TriggerControlPyramidScene.cs" />
+     <Compile Include="Assets\TriggerTransitionScene.cs" />
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -380,9 +386,6 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="Vuforia.UnityExtensions">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.GoogleAudioSpatializer">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
  </Reference>
@@ -390,13 +393,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/renat/Documents/_UnityProjects/MainGame/Disciples Of Sun/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/saobernardo/Programação/DisciplesOfTheSun/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

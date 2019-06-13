@@ -27,13 +27,16 @@ public class DeathTest : MonoBehaviour
 
           if(c.name == "arissa:RightArm" || c.name == "arissa:RightLeg")
           {
-            Debug.Log("a");
+            
 
             this.GetComponent<Animator>().Play("enemy_Hitted");
             enemy_hp -= 1;
             
-            
-            Debug.Log(enemy_hp);
+            if (enemy_hp <= 0) //Apagar depois ##
+                {
+                    this.GetComponent<Animator>().Play("enemy_Death");
+                }
+           
 
           }
         }
