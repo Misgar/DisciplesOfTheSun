@@ -10,13 +10,19 @@ public class MovimentosCharPrincipal : MonoBehaviour {
 
     private Animator _animador; // VARIAVEL DO TIPO ANIMADOR (OBJETO ANIMATOR)
 
+
     public float _andar = 0f;  //VARIAVEL FLOAT PADRÃO PARA CALCULO DE CONDIÇÃO DE ANIMAÇÃO (VIDE ANIMATOR)
 
 	void Start () {
         _animador = GetComponent<Animator>();  // Atribuido à variavel o componente ANIMATOR anteriormente criado.
 		
 	}
-	
+	 void Awake()
+    {
+        transform.tag = "mainPlayer"; //SETA TAG PLAYER AO INICIAR
+     
+    
+    }
 	// Update is called once per frame
 	void Update () {    
 
@@ -34,5 +40,6 @@ public class MovimentosCharPrincipal : MonoBehaviour {
                                                    // definido, e fará o controle da Animação Atual (Vide Animator -> Parameters)
 
         this.transform.Rotate(0, (Input.GetAxis("Horizontal") * _rotacionar) * Time.deltaTime, 0);
+        
 	}
 }

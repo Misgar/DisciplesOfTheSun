@@ -162,7 +162,8 @@
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Personagens\Inimigos\DeathTest.cs" />
      <Compile Include="Assets\Scripts\Personagens\Inimigos\InimigoIA.cs" />
-     <Compile Include="Assets\Scripts\Personagens\Main\mainChar2.cs" />
+     <Compile Include="Assets\Scripts\Personagens\Inimigos\WalkTestInput.cs" />
+     <Compile Include="Assets\Scripts\Personagens\Main\Gravity.cs" />
      <Compile Include="Assets\Scripts\Personagens\Main\mainCharAtacksController.cs" />
      <Compile Include="Assets\Scripts\Personagens\Main\MainCharCameraControll.cs" />
      <Compile Include="Assets\Scripts\Personagens\Main\MovimentosCharPrincipal.cs" />
