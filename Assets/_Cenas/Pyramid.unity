@@ -1102,7 +1102,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325115139}
-  m_LocalRotation: {x: -0.036789186, y: 0.057049666, z: 0.002103665, w: 0.99769115}
+  m_LocalRotation: {x: -0.036825735, y: 0.035723068, z: 0.0013172609, w: 0.9986822}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1532,7 +1532,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801395642}
-  m_LocalRotation: {x: -0.00052384625, y: 0.057088435, z: 0.0000300034, w: 0.99836904}
+  m_LocalRotation: {x: -0.000524332, y: 0.03574735, z: 0.000018804249, w: 0.99936074}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1608,7 +1608,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838603872}
-  m_LocalRotation: {x: -0.010641573, y: 0.057085186, z: 0.0006081378, w: 0.9983125}
+  m_LocalRotation: {x: -0.010652135, y: 0.035745315, z: 0.00038066405, w: 0.9993041}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5027,8 +5027,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282714113650981804}
-  m_LocalRotation: {x: 0.011182838, y: 0.6376362, z: -0.009258081, w: 0.7702009}
-  m_LocalPosition: {x: 83.09991, y: -9.211515, z: -0.6703279}
+  m_LocalRotation: {x: -0.01798225, y: 0.035741568, z: 0.00064322894, w: 0.9991991}
+  m_LocalPosition: {x: -0.4387411, y: 0.82229716, z: -65.47676}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5935,7 +5935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 094aad54dc104c846ab8edd42c081587, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Life: 1000
 --- !u!4 &1282714114351522811
 Transform:
   m_ObjectHideFlags: 0
@@ -6717,6 +6716,7 @@ GameObject:
   - component: {fileID: 1282714114351522808}
   - component: {fileID: 1738941975}
   - component: {fileID: 1480529352200566746}
+  - component: {fileID: 1480529352200566747}
   m_Layer: 0
   m_Name: Arissa Variant
   m_TagString: Player
@@ -6820,3 +6820,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1480529352200566747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480529352200566745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e23d6148132468443954f26f3ba82e84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravidade: 20
