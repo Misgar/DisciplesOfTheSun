@@ -13,7 +13,7 @@ public class Destruction : MonoBehaviour {
 	} 
 
 	void OnTriggerEnter(Collider other){ 
-		if(other.gameObject.tag == "Player"){ 
+		if(other.gameObject.tag == "mainPlayer"){ 
 			foreach (Rigidbody chunk in chunks){
 				chunk.useGravity = enabled;
 				chunk.isKinematic = false;
