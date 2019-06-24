@@ -35,10 +35,12 @@ public class InimigoIA : MonoBehaviour
     // Update is called once per frame
     void Update(){
         distance = CalculateDistance(player);
-        Follow();
+        transform.LookAt(player.transform.position);
+        
         if (begin == true && distance < 9.5f){
             follow = true;
             begin = this.Begin();
+            Follow();
                      
         }
         if (begin == false && distance <= 0.8f) 
@@ -64,6 +66,7 @@ public class InimigoIA : MonoBehaviour
              Debug.Log("Debug Combat");
 
             this.GetComponent<Animator>().Play("enemy_Attack");
+            this.GetComponent<Animator>().Play("enemy_Walkback");
         
     }
     public bool Begin(){
@@ -77,7 +80,11 @@ public class InimigoIA : MonoBehaviour
     public void Follow(){
         if(distance >= 4f){
         navMesh.destination = player.transform.position;
+        transform.LookAt(player.transform.position);
 
+        } else{
+            this.GetComponent<Animator>().Play("Exit");
+            transform.LookAt(player.transform.position);
         }
     }
 }
