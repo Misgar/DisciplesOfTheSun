@@ -19,26 +19,15 @@ public class mainCharAtacksController : MonoBehaviour
             
             Attacks();
             attack = verifyAttack(); // boolean return 
-            
-  
         }
     
     }
-
     void Movements(){ //Verifica se a tecla S ou Seta Baixo esta sendo pressionada
         if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
             GetComponent<Animator>().Play("Walk_Backward"); 
             // Retorna Componente animator do objeto e executa metodo de ação do animator.
         }
 
-       /*  Esse pedaço comentado se refere a animação não utilizada para virar a personagem (ja implementada).
-       
-       if (Input.GetKey(KeyCode.A)|| Input.GetKey(KeyCode.LeftArrow) && Input.GetKeyDown(KeyCode.LeftControl)) {
-            GetComponent<Animator>().Play("Left_Turn"); 
-        }
-        else if (Input.GetKey(KeyCode.D)|| Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.LeftControl)) {
-            GetComponent<Animator>().Play("Right_Turn"); 
-        }  */
     }
     public bool Attacks(){ // Metodo Reservado para controle manual de animações de combate
 
@@ -53,8 +42,7 @@ public class mainCharAtacksController : MonoBehaviour
                     _audioA.Play(); //Toca audio apenas caso animação de bater ja tenha terminado. Precisa ser melhorado.
                 }
            
-            this.GetComponent<Animator>().Play("Stab");
-            
+            this.GetComponent<Animator>().Play("Stab");     
         }
 
         if (Input.GetKey(KeyCode.Mouse1) ){
@@ -65,8 +53,8 @@ public class mainCharAtacksController : MonoBehaviour
 
     }
     public bool verifyAttack(){ // ESTE METODO SERA RESPONSAVEL POR VERIFICAR SE A AÇÃO STAB FOI CHAMADA
-        if (GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Stab")
-         || GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Kick")) // VERIFICANDO O NOME DA AÇÃO ATUAL
+        if (GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Stab")||
+          GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Kick")) // VERIFICANDO O NOME DA AÇÃO ATUAL
         {      
           
             return true;

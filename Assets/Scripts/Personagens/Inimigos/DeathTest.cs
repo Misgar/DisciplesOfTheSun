@@ -36,7 +36,6 @@ public class DeathTest : MonoBehaviour
                 {
                     this.GetComponent<Animator>().Play("enemy_Death");
                 }
-           
 
           }
         }
