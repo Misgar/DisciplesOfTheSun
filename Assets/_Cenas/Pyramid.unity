@@ -1102,7 +1102,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325115139}
-  m_LocalRotation: {x: -0.067071415, y: 0.056967534, z: 0.003835797, w: 0.9961132}
+  m_LocalRotation: {x: -0.06713614, y: 0.036465734, z: 0.0024553472, w: 0.9970742}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1533,7 +1533,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801395642}
-  m_LocalRotation: {x: -0.030843377, y: 0.05706927, z: 0.0017639772, w: 0.9978922}
+  m_LocalRotation: {x: -0.030873144, y: 0.036530856, z: 0.0011291653, w: 0.99885494}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1609,7 +1609,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838603872}
-  m_LocalRotation: {x: -0.04095474, y: 0.057048447, z: 0.0023418309, w: 0.9975284}
+  m_LocalRotation: {x: -0.040994246, y: 0.036517527, z: 0.0014989089, w: 0.99849075}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5097,7 +5097,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282714113650981804}
-  m_LocalRotation: {x: -0.04827101, y: 0.057029765, z: 0.002760611, w: 0.9972011}
+  m_LocalRotation: {x: -0.048317578, y: 0.036505565, z: 0.0017671064, w: 0.9981631}
   m_LocalPosition: {x: -0.48953497, y: 0.70593375, z: -65.75765}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5993,18 +5993,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.33887917, y: 1.7812605, z: 0.4901123}
   m_Center: {x: -0.1291379, y: 0.92155457, z: -0.0963068}
---- !u!114 &1282714114351522809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480529352200566745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 094aad54dc104c846ab8edd42c081587, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1282714114351522811
 Transform:
   m_ObjectHideFlags: 0
@@ -6781,14 +6769,13 @@ GameObject:
   - component: {fileID: 1282714114351522811}
   - component: {fileID: 1282714114351522812}
   - component: {fileID: 1282714114351522813}
-  - component: {fileID: 1282714114351522809}
   - component: {fileID: 1282714114351522807}
   - component: {fileID: 1282714114351522808}
   - component: {fileID: 1738941975}
   - component: {fileID: 1480529352200566746}
   - component: {fileID: 1480529352200566747}
   m_Layer: 0
-  m_Name: Arissa Variant
+  m_Name: Arissa
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

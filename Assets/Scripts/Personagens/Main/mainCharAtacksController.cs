@@ -31,7 +31,9 @@ public class mainCharAtacksController : MonoBehaviour
             // Retorna Componente animator do objeto e executa metodo de ação do animator.
         }
 
-       /*  if (Input.GetKey(KeyCode.A)|| Input.GetKey(KeyCode.LeftArrow) && Input.GetKeyDown(KeyCode.LeftControl)) {
+       /*  Esse pedaço comentado se refere a animação não utilizada para virar a personagem (ja implementada).
+       
+       if (Input.GetKey(KeyCode.A)|| Input.GetKey(KeyCode.LeftArrow) && Input.GetKeyDown(KeyCode.LeftControl)) {
             GetComponent<Animator>().Play("Left_Turn"); 
         }
         else if (Input.GetKey(KeyCode.D)|| Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.LeftControl)) {
@@ -42,7 +44,15 @@ public class mainCharAtacksController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse0)){  // Controlando as animações de acordo com o input inserido
            _audioA = GetComponent<AudioSource>();
-           _audioA.Play();
+           
+
+            if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Stab")|| // OR **
+            this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("stab_Idle")){
+                    GetComponent<Animator>().Play("Exit");
+                } else{
+                    _audioA.Play(); //Toca audio apenas caso animação de bater ja tenha terminado. Precisa ser melhorado.
+                }
+           
             this.GetComponent<Animator>().Play("Stab");
             
         }
