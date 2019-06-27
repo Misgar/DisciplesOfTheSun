@@ -76,7 +76,7 @@ public class InimigoIA : MonoBehaviour
     }
     public bool Begin(){
        
-        audioSource.Play();
+        //audioSource.Play();
         this.GetComponent<Animator>().Play("enemy_Scream"); //Scream seguido de run, devido ao exit time
         
         return false;
