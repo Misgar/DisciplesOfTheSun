@@ -36,6 +36,7 @@ public class InimigoIA : MonoBehaviour
     void Update(){
         distance = CalculateDistance(player);
         transform.LookAt(player.transform.position);
+        timer = CalculateTimePassed();  // utilizando para calcular tempo de execução, em segundos
         
         if (begin == true && distance < 9.5f){
             follow = true;
@@ -63,15 +64,19 @@ public class InimigoIA : MonoBehaviour
 
     public void Combat(){
         
-             Debug.Log("Debug Combat");
 
             this.GetComponent<Animator>().Play("enemy_Attack");
             this.GetComponent<Animator>().Play("enemy_Walkback");
+                while (timer != timer + 8f ){
+                    this.transform.LookAt(player.transform.position);
+                    this.GetComponent<Animator>().Play("enemy_Scream");
+                }
+           
         
     }
     public bool Begin(){
        
-        audioSource.Play();
+        //audioSource.Play();
         this.GetComponent<Animator>().Play("enemy_Scream"); //Scream seguido de run, devido ao exit time
         
         return false;

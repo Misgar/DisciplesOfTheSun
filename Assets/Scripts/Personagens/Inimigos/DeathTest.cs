@@ -34,9 +34,8 @@ public class DeathTest : MonoBehaviour
             
             if (enemy_hp <= 0) //Apagar depois ##
                 {
-                    this.GetComponent<Animator>().Play("enemy_Death");
+                    enemyDeathDisable();
                 }
-           
 
           }
         }
@@ -44,8 +43,11 @@ public class DeathTest : MonoBehaviour
 
    public void enemyDeathDisable(){
     // this.transform.position = new Vector3(this.transform.position.x, -10.92f, this.transform.position.z);
-       this.GetComponent<Animator>().Play("enemy_Death");
        
+       this.GetComponent<CharacterController>().enabled = false;
+       
+       this.GetComponent<Animator>().Play("enemy_Death");
+
        this.GetComponent<DeathTest>().enabled = false;
        
        this.GetComponent<InimigoIA>().enabled = false;
