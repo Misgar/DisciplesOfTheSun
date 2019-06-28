@@ -9,6 +9,7 @@ TagManager:
   - Trigger
   - mainPlayer
   - Pause
+  - BlackCamera
   layers:
   - Default
   - TransparentFX
