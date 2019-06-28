@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Cenas/Tomb.unity
     guid: 29e9c5d5ae9af3b45bd6d1e30bd6a710
+  - enabled: 1
+    path: Assets/_Cenas/Creditos.unity
+    guid: d6383d605ef46fb439bbb577ea83645f
   m_configObjects: {}
