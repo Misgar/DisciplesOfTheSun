@@ -172,6 +172,7 @@
      <Compile Include="Assets\Scripts\Personagens\Main\Stairs.cs" />
      <Compile Include="Assets\Scripts\testeCollider.cs" />
      <Compile Include="Assets\Scripts\VolumeValueChange.cs" />
+     <Compile Include="Assets\toTomb.cs" />
      <Compile Include="Assets\TriggerTransitionScene.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/RenatoAO/Documents/_UnityProjects/DisciplesOfTheSun/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
