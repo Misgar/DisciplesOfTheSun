@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class Destruction : MonoBehaviour {
 
+	public Texture2D mainTex;
+    public Rect rTex;
 	public Rigidbody[] chunks;
 	public GameObject dustFX;
 	public AudioClip audioClip;
@@ -27,19 +29,23 @@ public class Destruction : MonoBehaviour {
 				chunk.useGravity = enabled;
 				chunk.isKinematic = false;
 				//dustFX.SetActive(true);
-				GetComponent<AudioSource> ().PlayOneShot (audioClip);
+				GetComponent<AudioSource>().PlayOneShot(audioClip);
 			}
-			//m_MainCamera.enabled = false;
-			//BlackScreenCamera.enabled = true;
-			//m_MainCamera.gameObject.SetActive(false);
-			m_MainCamera.GetComponent<AudioListener>().enabled = false;
-			BlackScreenCamera.gameObject.SetActive(true);
+		
+
+			/* m_MainCamera.enabled = false;
+			BlackScreenCamera.enabled = true;
+			
+			m_MainCamera.GetComponent<AudioListener>().enabled = false; */
+
+			
+
+	
+			
 			
 
 		}
 	}
 	// Update is called once per frame
-	void Update () {
-
-	}
+	 
 }
