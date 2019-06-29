@@ -7,17 +7,24 @@ using UnityEngine.SceneManagement;
 
 public class TriggerTransitionScene : MonoBehaviour {
 
+    public GameObject mainPlayer;
     public string SceneName;
     public Camera MainCamera;
+    public Texture2D mainTex;
+    public Rect rTex;
 
     void Start(){
         MainCamera = Camera.main;
     }
 
+
     void OnTriggerEnter (Collider enter) {
         if (enter.gameObject.tag == "mainPlayer") {
             
-            SceneManager.LoadScene (SceneName);
+            this.GetComponent<BlackScreen>().enabled = true;
         }
     }
+
+    
+
 }
