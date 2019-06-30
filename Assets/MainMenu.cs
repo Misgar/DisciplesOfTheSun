@@ -8,7 +8,6 @@ public class MainMenu : MonoBehaviour
 {
     //Variáveis do pause
     public Button newGameButton;
-    public Button optionsButton;
     public Button exitGameButton;
     public string newGameSceneName;
     public GameObject optionsMenu;
@@ -26,18 +25,12 @@ public class MainMenu : MonoBehaviour
     public void Awake()
     {
         newGameButton.onClick.AddListener(NewGame);
-        optionsButton.onClick.AddListener(OptionsGame);
         exitGameButton.onClick.AddListener(ExitGame);
     }
 
     public void NewGame()
     {
         SceneManager.LoadScene(newGameSceneName);
-    }
-
-    public void OptionsGame()
-    {
-        optionsMenu.SetActive(true);
     }
 
     public void ExitGame()
