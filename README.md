@@ -8,4 +8,3 @@ We specially want to show that 1.5 year is enough time to develop a impressive "
 
 Hope you enjoy it once is released! :)
 
-https://github.com/Misgar/DisciplesOfTheSun/blob/master/pp.jpg
