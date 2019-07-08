@@ -7,3 +7,5 @@ We want to achieve a playable 3D game that focus on the environment, and demonst
 We specially want to show that 1.5 year is enough time to develop a impressive "showcase demo" if you and your friends are not normal people.
 
 Hope you enjoy it once is released! :)
+
+https://github.com/Misgar/DisciplesOfTheSun/blob/master/pp.jpg
